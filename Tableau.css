@@ -1,0 +1,43 @@
+/* Tableau.css */
+
+/* Container for the entire Tableau component */
+.tableau-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Container for the buttons */
+  .buttons-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  /* Style for the buttons */
+  .buttons-container button {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons-container button:hover {
+    background-color: grey;
+  }
+  
+  /* Container for the Tableau Viz */
+  .viz-container {
+    width: 80%;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
